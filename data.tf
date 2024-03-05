@@ -1,6 +1,3 @@
-
-
-/*
 data "aws_vpc" "vpc_available" {
   filter {
     name   = "tag:Name"
@@ -24,4 +21,3 @@ data "aws_security_group" "tcw_sg" {
     values = ["nike_security_group"]
   }
 }
-*/
